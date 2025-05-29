@@ -76,7 +76,7 @@ Once the command is generated and displayed, you will be presented with the foll
 
 *   `GEMINI_API_KEY`: (Required) Your API key for accessing the Gemini API.
 *   `EDITOR`: (Optional) The command to launch your preferred text editor (e.g., `vim`, `nano`, `code --wait`). Defaults to `vim`.
-*   `CF_MODEL_NAME`: (Optional) The Gemini model to use. Defaults to `gemini-1.5-flash-latest` (as per the script, but your version uses `gemini-2.5-flash-preview-05-20`).
+*   `CF_MODEL_NAME`: (Optional) The Gemini model to use. Defaults to `gemini-2.5-flash-preview-05-20`.
 
 
 ## ⚠️ Warning
