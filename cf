@@ -139,8 +139,8 @@ Command:
 
 Provide only the explanation. Do not add any conversational fluff or introductory/concluding remarks.
 Focus on what each part of the command does and its overall purpose. Explain the purpose before
-going into details. Do not use markdown aws the output is meant to be shown in ASCII. You can use ASCII 
-scape codes for adding color but after the explanation console should return to normal.  
+going into details. Do not use markdown aws the output is meant to be shown as text. You should not
+describe pipes or redirects as independent items.
     """.strip()
     return get_gemini_response(prompt)
 
